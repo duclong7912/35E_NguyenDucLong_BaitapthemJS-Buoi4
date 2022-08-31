@@ -10,6 +10,9 @@ html,body{
 }
 label{
     display: block;
+    font-size: 20px;
+    color: #ff0095;
+    font-weight: 700;
 }
 .btn{
     background-color: black;
