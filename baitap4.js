@@ -32,6 +32,8 @@ document.getElementById("btnTim").onclick = function () {
         thongBao = "Sinh viên xa trường nhất: " + t3;
     }
 
+    // Đầu ra:
+
     document.getElementById("showTim").innerHTML = thongBao;
 
 }
