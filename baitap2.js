@@ -1,4 +1,27 @@
                     //   Tính ngày
+
+/**
+ * - Đầu vào:
+ * 
+ * đặt biến cho người dùng nhập liệu
+ * var nhapThang = ?
+ * var nhapNam = ?
+ * 
+ * đặt biến để hiển thị kết quả
+ * var tinhNgay = "";
+ * 
+ * - Xử lý:
+ * 
+ * Để xác định năm nhuận của tháng 2
+ * nhapNam % 4 === 0 && (nhapNam % 100 !== 0 || nhapNam % 100 === 0)
+ * Xác định những tháng có 31 ngày
+ * Xác định những tháng có 30 ngày
+ * Đối với tháng 2 không phải năm nhuận thì là 28 ngày
+ * 
+ * - Đầu ra:
+ * 
+ * tinhNgay = ?
+ */
                     
 document.getElementById("btnTinhNgay").onclick = function () {
 

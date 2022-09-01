@@ -1,5 +1,37 @@
                 // Tìm sinh viên xa trường nhất
 
+/**
+ * đặt biến cho người dùng nhập liệu
+ * var t1= ?
+ * var t2 = ?
+ * var t3  = ?
+ * var x1 = ?
+ * var x2 = ?
+ * var x3 = ?
+ * var x4 = ?
+ * var y1 = ?
+ * var y2 = ?
+ * var y3 = ?
+ * var y4 = ?
+ * 
+ * đặt biến để hiển thị kết quả
+ * var thongBao = "";
+ * 
+ * - Xử lý:
+ * 
+ * Tính đoạn đường từ học sinh đến trường học
+ * học sinh 1:
+ * d14 = Math.sqrt((x4 - x1) ** 2 + (y4 - y1) ** 2);
+ * học sinh 2:
+ * d24 = Math.sqrt((x4 - x2) ** 2 + (y4 - y2) ** 2);
+ * học sinh 3:
+ * d34 = Math.sqrt((x4 - x3) ** 2 + (y4 - y3) ** 2);
+ * 
+ * - Đầu ra: 
+ * 
+ * thongBao = ?
+ */
+
 document.getElementById("btnTim").onclick = function () {
 
     // Đầu vào:

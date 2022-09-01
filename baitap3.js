@@ -1,5 +1,29 @@
                 // Cách đọc số
 
+/**
+ * - Đầu vào:
+ * 
+ * đặt biến cho người dùng nhập liệu
+ * var n1 = ?
+ * 
+ * đặt biến để hiển thị kết quả
+ * var docSo = "";
+ * 
+ *  - Xử lý:
+ * 
+ * hangTram = Math.floor(n1 / 100);
+ * hangChuc = Math.floor(n1 / 10 % 10);
+ * hangDonVi = Math.floor(n1 % 10);
+ * 
+ * tạo switch case để xử lý cách đọc số của hàng trăm, hàng chục, hàng đơn vị
+ * 
+ * docSo = hangTram + hangChuc + hangDonVi;
+ * 
+ * - Đầu ra:
+ * 
+ * docSo = ?
+ */
+
 document.getElementById("btnDoc").onclick = function () {
 
     // Đầu vào:
@@ -54,8 +78,7 @@ document.getElementById("btnDoc").onclick = function () {
 
     switch(hangChuc) {
         case 0:
-            alert("Hàng chục không xác định.");
-            hangChuc = "";
+            hangChuc = 'lẻ ';
             break;
         case 1:
             hangChuc = 'mười ';
@@ -88,7 +111,6 @@ document.getElementById("btnDoc").onclick = function () {
 
     switch(hangDonVi) {
         case 0:
-            alert ("Hàng đơn vị không xác định.")
             hangDonVi = '';
             break;
         case 1:
@@ -120,9 +142,9 @@ document.getElementById("btnDoc").onclick = function () {
             break;
     }
 
-    // Đầu ra: 
-    
     docSo = hangTram + hangChuc + hangDonVi;
 
+    // Đầu ra: 
+    
     document.getElementById("showDocSo").innerHTML = docSo;
 }

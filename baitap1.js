@@ -1,5 +1,31 @@
                 // Tính ngày tháng năm
 
+/**
+ * - Đầu vào:
+ * 
+ * đặt biến để người dùng nhập dữ liệu
+ * var ngay = ?
+ * var thang = ?
+ * var nam = ?
+ * 
+ * đặt biến để hiển thị kết quả
+ * var ngayThangNam = "";
+ * 
+ * - Xử lý:
+ * 
+ * Sử dụng if else if để xét các trường hợp có thể xảy ra
+ * Xác định những tháng có 30 ngày, 31 ngày, 28 ngày
+ * nếu người dụng chọn ngày hôm qua:
+ * ngayThangNam = --ngay + thang + nam;
+ * nếu người dụng chọn ngày mai:
+ * ngayThangNam = ++ngay + thang + nam;
+ * những ngày đầu hoặc cuối tháng phải xử lý riêng 
+ * 
+ * - Đầu ra:
+ * 
+ * ngayThangNam = ?
+ */
+
 document.getElementById("homQua").onclick = function () {
 
     // Đầu vào:
